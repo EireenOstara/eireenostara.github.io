@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Eireen Ostara - Saboaria Artesanal</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=320, user-scalable=false">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap -->
+    <link href="css/estilos.css" rel="stylesheet">
+	
+  </head>
+<body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<section id="top">
+		
+	</section>
+
+	<section>
+		<div class="row-fluid">
+			<div class="span4">
+				<p>saboaria artesanal</p>
+				<p><a href="https://www.goomer.app/eireen-ostara" class="btn-loja">Loja</a></p>
+				<p>
+					<a href="https://wa.me/5548984140991" class="btn-zap">
+						<img src="img/zap.png" style="position:absolute;
+															width: 55px;
+															margin-top: -12px;
+															margin-left: -70px;" >(48) 98414.0991
+					</a>
+				</p>
+				<p><a href="tel:48984140991" class="btn">Fone: (48) 98414.0991</a></p>
+				
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<!--
+<section class="facebook">
+	<div class="fb-like" data-href="http://zedocacupe.com.br" data-send="false" data-width="320" data-show-faces="true" data-font="verdana"></div>
+	</section>
+-->
+	
+	<footer>
+		<p>Eireen Ostara 2020</p>
+	</footer>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	// function sanfona FAQ toggle with close button
+		$(function(){
+			$("dd").hide();
+			$("dt a").click(function(){
+				$(".sanfonaShow").css('color', '#ffffff');
+				if($(this).parent().next().is(':visible')){
+					$(this).parent().next().slideUp('600');
+				}else{
+					$(this).css('color', '#444');
+					$("dd:visible").slideUp('600');
+					$(this).parent().next().slideDown('600');
+				}
+			});
+			$("a.fecharSanfona").click(function(){
+				$("dt a").css('color', '#ffffff');
+				$("dd:visible").slideUp('600');
+			});
+		});
+	});
+	</script>
+</body>
+</html>
